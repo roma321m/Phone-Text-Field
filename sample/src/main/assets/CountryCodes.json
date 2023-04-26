@@ -1,0 +1,743 @@
+[{
+    "dial_code": "+93",
+    "code": "AF",
+    "country" : "Afghanistan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/140-afghanistan.svg",
+    "hint" : "xx yyyyyyy"
+},
+{
+    "dial_code": "+358",
+    "code": "AX",
+    "country" : "Aland Islands",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/157-aland%20islands.svg",
+    "hint" : "xx yyyyyyy"
+},
+{
+    "dial_code": "+355",
+    "code": "AL",
+    "country" : "Albania",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/145-albania.svg",
+    "hint" : "4 xxx xxxx"
+},
+{
+    "dial_code": "+213",
+    "code": "DZ",
+    "country" : "Algeria",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/136-Algeria.svg",
+    "hint" : "yxx xx xx xx"
+},
+{
+    "dial_code": "+1684",
+    "code": "AS",
+    "country" : "AmericanSamoa",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/177-american%20samoa.svg",
+    "hint" : "xxxxx"
+},
+{
+    "dial_code": "+376",
+    "code": "AD",
+    "country" : "Andorra",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/160-andorra.svg",
+    "hint" : "xx xx xx"
+},
+{
+    "dial_code": "+244",
+    "code": "AO",
+    "country" : "Angola",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/138-angola.svg",
+    "hint" : "xxx xxx xxx"
+},
+{
+    "dial_code": "+1264",
+    "code": "AI",
+    "country" : "Anguilla",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/175-anguilla.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+1268",
+    "code": "AG",
+    "country" : "Antigua and Barbuda",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/158-antigua%20and%20barbuda.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+54",
+    "code": "AR",
+    "country" : "Argentina",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/199-argentina.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+374",
+    "code": "AM",
+    "country" : "Armenia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/141-armenia.svg",
+    "hint" : "yy xxx xxx"
+},
+{
+    "dial_code": "+297",
+    "code": "AW",
+    "country" : "Aruba",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/163-aruba.svg",
+    "hint" : "yyx xxxx"
+},
+{
+    "dial_code": "+61",
+    "code": "AU",
+    "country" : "Australia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/143-australia.svg",
+    "hint" : "y xxxx xxxx"
+},
+{
+    "dial_code": "+43",
+    "code": "AT",
+    "country" : "Austria",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/072-austria.svg",
+    "hint" : "y xxxx xxxxx"
+},
+{
+    "dial_code": "+994",
+    "code": "AZ",
+    "country" : "Azerbaijan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/137-azerbaijan.svg",
+    "hint" : "yy xxx xxxx"
+},
+{
+    "dial_code": "+1242",
+    "code": "BS",
+    "country" : "Bahamas",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/067-bahamas.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+880",
+    "code": "BD",
+    "country" : "Bangladesh",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/134-bangladesh.svg",
+    "hint" : "y xxxx xxxx"
+},
+{
+    "dial_code": "+375",
+    "code": "BY",
+    "country" : "Belarus",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/152-belarus.svg",
+    "hint" : "yy xxxx xxx"
+},
+{
+    "dial_code": "+32",
+    "code": "BE",
+    "country" : "Belgium",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/209-belgium.svg",
+    "hint" : "yy xx xx xx"
+},
+{
+    "dial_code": "+591",
+    "code": "BO",
+    "country" : "Bolivia, Plurinational State of",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/129-bolivia.svg",
+    "hint" : "y xxx xxxx"
+},
+{
+    "dial_code": "+387",
+    "code": "BA",
+    "country" : "Bosnia and Herzegovina",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/149-bosnia%20and%20herzegovina.svg",
+    "hint" : "33 xxx xxx"
+},
+{
+    "dial_code": "+55",
+    "code": "BR",
+    "country" : "Brazil",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/022-brazil.svg",
+    "hint" : "yy 9xxxxxxxx"
+},
+{
+    "dial_code": "+359",
+    "code": "BG",
+    "country" : "Bulgaria",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/127-bulgaria.svg",
+    "hint" : "2 xxx xxxx"
+},
+{
+    "dial_code": "+855",
+    "code": "KH",
+    "country" : "Cambodia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/130-cambodia.svg",
+    "hint" : "yy xxx xxxx"
+},
+{
+    "dial_code": "+1",
+    "code": "CA",
+    "country" : "Canada",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/066-canada.svg",
+    "hint" : "yyy xxxxxxxx"
+},
+{
+    "dial_code": "+56",
+    "code": "CL",
+    "country" : "Chile",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/212-chile.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+86",
+    "code": "CN",
+    "country" : "China",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/011-china.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+57",
+    "code": "CO",
+    "country" : "Colombia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/201-colombia.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+506",
+    "code": "CR",
+    "country" : "Costa Rica",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/131-costa%20rica.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+385",
+    "code": "HR",
+    "country" : "Croatia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/128-croatia.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+53",
+    "code": "CU",
+    "country" : "Cuba",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/133-cuba.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+357",
+    "code": "CY",
+    "country" : "Cyprus",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/233-cyprus.svg",
+    "hint" : "9 xxxxxx"
+},
+{
+    "dial_code": "+593",
+    "code": "EC",
+    "country" : "Ecuador",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/214-ecuador.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+20",
+    "code": "EG",
+    "country" : "Egypt",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/184-egypt.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+503",
+    "code": "SV",
+    "country" : "El Salvador",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/248-el%20salvador.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+358",
+    "code": "FI",
+    "country" : "Finland",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/211-finland.svg",
+    "hint" : "yy xxxx xxx"
+},
+{
+    "dial_code": "+33",
+    "code": "FR",
+    "country" : "France",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/197-france.svg",
+    "hint" : "y yy xx xx xx"
+},
+{
+    "dial_code": "+995",
+    "code": "GE",
+    "country" : "Georgia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/005-georgia.svg",
+    "hint" : "yyy xxx xxx"
+},
+{
+    "dial_code": "+49",
+    "code": "DE",
+    "country" : "Germany",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/208-germany.svg",
+    "hint" : "yy xxx xxx"
+},
+{
+    "dial_code": "+30",
+    "code": "GR",
+    "country" : "Greece",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/192-greece.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+502",
+    "code": "GT",
+    "country" : "Guatemala",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/223-guatemala.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+509",
+    "code": "HT",
+    "country" : "Haiti",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/014-haiti.svg",
+    "hint" : "xx xx xxxx"
+},
+{
+    "dial_code": "+852",
+    "code": "HK",
+    "country" : "Hong Kong",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/196-hong%20kong.svg",
+    "hint" : "3 xxx xxx"
+},
+{
+    "dial_code": "+36",
+    "code": "HU",
+    "country" : "Hungary",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/210-hungary.svg",
+    "hint" : "yy yy xxx xxx"
+},
+{
+    "dial_code": "+354",
+    "code": "IS",
+    "country" : "Iceland",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/222-iceland.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+91",
+    "code": "ID",
+    "country" : "India",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/055-india.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+98",
+    "code": "IR",
+    "country" : "Iran",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/200-iran.svg",
+    "hint" : "9xx xxx xxxx"
+},
+{
+    "dial_code": "+964",
+    "code": "IQ",
+    "country" : "Iraq",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/256-iraq.svg",
+    "hint" : "yy xxx xxxx"
+},
+{
+    "dial_code": "+353",
+    "code": "IE",
+    "country" : "Ireland",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/193-ireland.svg",
+    "hint" : "xxx xxx xxx"
+},
+{
+    "dial_code": "+972",
+    "code": "IL",
+    "country" : "Israel",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/203-israel.svg",
+    "hint" : "yy xxxxxxx"
+},
+{
+    "dial_code": "+39",
+    "code": "IT",
+    "country" : "Italy",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/263-italy.svg",
+    "hint" : "xxx xxxx xxx"
+},
+{
+    "dial_code": "+1876",
+    "code": "JM",
+    "country" : "Jamaica",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/237-jamaica.svg",
+    "hint" : "xxxxxxx"
+},
+{
+    "dial_code": "+81",
+    "code": "JP",
+    "country" : "Japan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/241-japan.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+81",
+    "code": "JP",
+    "country" : "Japan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/241-japan.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+962",
+    "code": "JO",
+    "country" : "Jordan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/221-jordan.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+77",
+    "code": "KZ",
+    "country" : "Kazakhstan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/229-kazakhstan.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+254",
+    "code": "KE",
+    "country" : "Kenya",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/234-kenya.svg",
+    "hint" : "yyx xxxxxx"
+},
+{
+    "dial_code": "+82",
+    "code": "KR",
+    "country" : "South Korea",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/219-south%20korea.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+850",
+    "code": "KP",
+    "country" : "North Korea",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/226-north%20korea.svg",
+    "hint" : "y xxx xxxx"
+},
+{
+    "dial_code": "+371",
+    "code": "LV",
+    "country" : "Latvia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/231-latvia.svg",
+    "hint" : "yxxx xxxx"
+},
+{
+    "dial_code": "+961",
+    "code": "LB",
+    "country" : "Lebanon",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/255-lebanon.svg",
+    "hint" : "y xxx xxxx"
+},
+{
+    "dial_code": "+352",
+    "code": "LU",
+    "country" : "Luxembourg",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/240-luxembourg.svg",
+    "hint" : "xxx xxxx xxx"
+},
+{
+    "dial_code": "+853",
+    "code": "MO",
+    "country" : "Macao",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/118-macao.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+261",
+    "code": "MG",
+    "country" : "Madagascar",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/008-madagascar.svg",
+    "hint" : "yy xx xxx xx"
+},
+{
+    "dial_code": "+960",
+    "code": "MV",
+    "country" : "Maldives",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/029-maldives.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+356",
+    "code": "MT",
+    "country" : "Malta",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/251-malta.svg",
+    "hint" : "xxx xxxx xxx"
+},
+{
+    "dial_code": "+230",
+    "code": "MU",
+    "country" : "Mauritius",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/242-mauritius.svg",
+    "hint" : "y xxx xxxx"
+},
+{
+    "dial_code": "+52",
+    "code": "MX",
+    "country" : "Mexico",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/033-mexico.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+212",
+    "code": "MA",
+    "country" : "Morocco",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/182-morocco.svg",
+    "hint" : "xxxxxxxx"
+},
+{
+    "dial_code": "+977",
+    "code": "NP",
+    "country" : "Nepal",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/012-nepal.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+31",
+    "code": "NL",
+    "country" : "Netherlands",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/077-netherlands.svg",
+    "hint" : "y xx xx xx xx"
+},
+{
+    "dial_code": "+64",
+    "code": "NZ",
+    "country" : "New Zealand",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/215-new%20zealand.svg",
+    "hint" : "y xxx xxxx"
+},
+{
+    "dial_code": "+968",
+    "code": "OM",
+    "country" : "Oman",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/261-oman.svg",
+    "hint" : "xxx xxx"
+},
+{
+    "dial_code": "+92",
+    "code": "PK",
+    "country" : "Pakistan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/232-pakistan.svg",
+    "hint" : "3yy xxxxxxx"
+},
+{
+    "dial_code": "+507",
+    "code": "PA",
+    "country" : "Panama",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/216-panama.svg",
+    "hint" : "xxx xxx"
+},
+{
+    "dial_code": "+595",
+    "code": "PY",
+    "country" : "Paraguay",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/001-paraguay.svg",
+    "hint" : "yy xxx xxx"
+},
+{
+    "dial_code": "+51",
+    "code": "PE",
+    "country" : "Peru",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/189-peru.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+63",
+    "code": "PH",
+    "country" : "Philippines",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/187-philippines.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+48",
+    "code": "PL",
+    "country" : "Poland",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/165-poland.svg",
+    "hint" : "yy xxx xxxx"
+},
+{
+    "dial_code": "+351",
+    "code": "PT",
+    "country" : "Portugal",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/098-portugal.svg",
+    "hint" : "yyy xxx xxx"
+},
+{
+    "dial_code": "+974",
+    "code": "QA",
+    "country" : "Qatar",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/244-qatar.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+40",
+    "code": "RO",
+    "country" : "Romania",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/213-romania.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+7",
+    "code": "RU",
+    "country" : "Russia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/044-russia.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+381",
+    "code": "RS",
+    "country" : "Serbia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/228-serbia.svg",
+    "hint" : "yy xxx xx xx"
+},
+{
+    "dial_code": "+65",
+    "code": "SG",
+    "country" : "Singapore",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/132-singapore.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+421",
+    "code": "SK",
+    "country" : "Slovakia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/218-slovakia.svg",
+    "hint" : "yyy xxxxxx"
+},
+{
+    "dial_code": "+386",
+    "code": "SI",
+    "country" : "Slovenia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/259-slovenia.svg",
+    "hint" : "y xxx xx xx"
+},
+{
+    "dial_code": "+27",
+    "code": "ZA",
+    "country" : "South Africa",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/188-south%20africa.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+34",
+    "code": "ES",
+    "country" : "Spain",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/230-spain.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+94",
+    "code": "LK",
+    "country" : "Sri Lanka",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/023-sri%20lanka.svg",
+    "hint" : "xxx xxx"
+},
+{
+    "dial_code": "+249",
+    "code": "SD",
+    "country" : "Sudan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/040-sudan.svg",
+    "hint" : "xxxxx"
+},
+{
+    "dial_code": "+46",
+    "code": "SE",
+    "country" : "Sweden",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/190-sweden.svg",
+    "hint" : "xxxx xxxx"
+},
+{
+    "dial_code": "+41",
+    "code": "CH",
+    "country" : "Switzerland",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/176-switzerland.svg",
+    "hint" : "xxxxxxx"
+},
+{
+    "dial_code": "+886",
+    "code": "TW",
+    "country" : "Taiwan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/183-taiwan.svg",
+    "hint" : "y xxxx xxxx"
+},
+{
+    "dial_code": "+66",
+    "code": "TH",
+    "country" : "Thailand",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/088-thailand.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+90",
+    "code": "TR",
+    "country" : "Turkey",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/154-turkey.svg",
+    "hint" : "xxx xxxx"
+},
+{
+    "dial_code": "+971",
+    "code": "AE",
+    "country" : "United Arab Emirates",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/195-united%20arab%20emirates.svg",
+    "hint" : "yy xxx xxxx"
+},
+{
+    "dial_code": "+44",
+    "code": "GB",
+    "country" : "United Kingdom",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/110-united%20kingdom.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+1",
+    "code": "US",
+    "country" : "United States",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/186-united%20states.svg",
+    "hint" : "yyy xxxx"
+},
+{
+    "dial_code": "+598",
+    "code": "UY",
+    "country" : "Uruguay",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/225-uruguay.svg",
+    "hint" : "xxxx xxx"
+},
+{
+    "dial_code": "+998",
+    "code": "UZ",
+    "country" : "Uzbekistan",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/041-uzbekist%C3%A1n.svg",
+    "hint" : "yy xxxxxxx"
+},
+{
+    "dial_code": "+58",
+    "code": "VE",
+    "country" : "Venezuela",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/206-venezuela.svg",
+    "hint" : "yyy xxx xxxx"
+},
+{
+    "dial_code": "+84",
+    "code": "VN",
+    "country" : "Vietnam",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/109-vietnam.svg",
+    "hint" : "yy xxxx xxxx"
+},
+{
+    "dial_code": "+967",
+    "code": "YE",
+    "country" : "Yemen",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/042-yemen.svg",
+    "hint" : "y xxx xxx"
+},
+{
+    "dial_code": "+260",
+    "code": "ZM",
+    "country" : "Zambia",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/247-zambia.svg",
+    "hint" : "yyy xxxxxx"
+},
+{
+    "dial_code": "+263",
+    "code": "ZW",
+    "country" : "Zimbabwe",
+    "flag_url" : "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/37f5888910515c1207df3efec6b07d939007f0ed/Flags/019-zimbabwe.svg",
+    "hint" : "y xxx xxx"
+}
+]
