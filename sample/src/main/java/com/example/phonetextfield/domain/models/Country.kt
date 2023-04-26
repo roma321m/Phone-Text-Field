@@ -4,8 +4,12 @@ import com.google.gson.annotations.SerializedName
 
 data class Country(
     // +972
-    @SerializedName("area_code")
-    var areaCode: String? = null,
+    @SerializedName("dial_code")
+    var dialCode: String? = null,
+
+    // IL
+    @SerializedName("code")
+    var code: String? = null,
 
     // Israel
     @SerializedName("country")
