@@ -1,8 +1,10 @@
 package com.example.phonetextfield
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
@@ -20,9 +22,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import coil.compose.rememberAsyncImagePainter
+import coil.decode.SvgDecoder
+import coil.request.ImageRequest
+import coil.size.Size
 import com.example.phonetextfield.ui.theme.EndTextShapes
 import com.example.phonetextfield.ui.theme.StartTextShapes
 
@@ -30,21 +37,24 @@ import com.example.phonetextfield.ui.theme.StartTextShapes
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PhoneTextFieldView(
+    modifier: Modifier,
     value: String,
     onValueChange: (String) -> Unit,
-    onSelect: (select: String) -> Unit,
-    leadingIcon: @Composable () -> Unit,
-    viewModel: PhoneTextFieldViewModel = hiltViewModel(),
-    modifier: Modifier
 ) {
+    val viewModel: PhoneTextFieldViewModel = hiltViewModel()
     var expanded by remember { mutableStateOf(false) }
-    var selectedText by remember { mutableStateOf("+595") }
 
     LaunchedEffect(Unit) { //fixme
         viewModel.handle(PhoneTextFieldEvent.GetCountryList)
-        viewModel.handle(PhoneTextFieldEvent.GetCountry("IL"))
     }
 
+    val painter = rememberAsyncImagePainter(
+        model = ImageRequest.Builder(LocalContext.current)
+            .decoderFactory(SvgDecoder.Factory())
+            .data(viewModel.selectedCountry.flagUrl)
+            .size(Size.ORIGINAL) // Set the target size to load the image at.
+            .build()
+    )
     Row(
         modifier = modifier
             .wrapContentSize()
@@ -62,27 +72,25 @@ fun PhoneTextFieldView(
         ) {
             TextField(
                 modifier = Modifier,
-                value = selectedText,
+                value = "",
                 onValueChange = {},
                 readOnly = true,
                 singleLine = true,
                 shape = StartTextShapes.small as RoundedCornerShape,
-                leadingIcon = leadingIcon,
                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-               // colors = colors
+                leadingIcon = { Image(modifier = Modifier.size(35.dp), painter = painter, contentDescription = null) },
             )
 
             ExposedDropdownMenu(
                 expanded = expanded,
                 onDismissRequest = { expanded = false }
             ) {
-                viewModel.areaCodeList.value.forEach { item ->
+                viewModel.countryList.forEach { item ->
                     DropdownMenuItem(
-                        text = { Text(text = item) },
+                        text = { Text(text = item.dialCode ?: "") },
                         onClick = {
-                            selectedText = item
                             expanded = false
-                            onSelect(selectedText)
+                            viewModel.handle(PhoneTextFieldEvent.UpdateSelectedCountry(item))
                         }
                     )
                 }
@@ -94,13 +102,11 @@ fun PhoneTextFieldView(
                 .weight(0.5f),
             value = value,
             onValueChange = { number ->
-                //TODO add checkes
                 onValueChange(number)
             },
             singleLine = true,
             shape = EndTextShapes.small as RoundedCornerShape,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
-            //colors = colors
         )
     }
 }

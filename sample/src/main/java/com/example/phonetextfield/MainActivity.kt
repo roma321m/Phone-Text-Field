@@ -35,37 +35,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val model = PhoneTextModel(
-                        flagUrl = "https://raw.githubusercontent.com/roma321m/Phone-Text-Field/main/Flags/001-paraguay.svg",
-                        code = "+595",
-                        country = "paraguay",
-                        hint = "(595-21) 493 918",
-                        number = ""
-                    )
+
                     var text by remember {
                         mutableStateOf("")
                     }
-                    val painter = rememberAsyncImagePainter(
-                        model = ImageRequest.Builder(LocalContext.current)
-                            .decoderFactory(SvgDecoder.Factory())
-                            .data(model.flagUrl)
-                            .size(Size.ORIGINAL) // Set the target size to load the image at.
-                            .build()
-                    )
+
                     PhoneTextFieldView(
+                        modifier = Modifier,
                         value = text,
                         onValueChange = { number ->
                             text = number
-                        },
-                        onSelect = {},
-                        leadingIcon = {
-                            Image(
-                                painter = painter,
-                                modifier = Modifier.size(35.dp),
-                                contentDescription = ""
-                            )
-                        },
-                        modifier = Modifier,
+                        }
                     )
                 }
             }
