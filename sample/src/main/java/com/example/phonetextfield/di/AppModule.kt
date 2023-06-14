@@ -26,7 +26,7 @@ object AppModule {
     fun provideCountryApi() : CountryApi {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("baseUrl") // TODO add base url
+            .baseUrl("http://ip:8080/country/") // Fixme - change ip
             .build()
             .create(CountryApi::class.java)
     }

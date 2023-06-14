@@ -1,8 +1,9 @@
 package com.example.phonetextfield.data.models
 
-sealed class ResponseState<out T> {
-    object Idle : ResponseState<Nothing>()
-    object Loading : ResponseState<Nothing>()
-    data class Success<T>(val data: T) : ResponseState<T>()
-    data class Error(val error: Throwable) : ResponseState<Nothing>()
+import com.example.phonetextfield.domain.models.Country
+
+sealed class Response {
+    data class Success(val data: Country) : Response()
+    data class SuccessAll(val data: List<Country>) : Response()
+    data class Error(val error: Throwable) : Response()
 }

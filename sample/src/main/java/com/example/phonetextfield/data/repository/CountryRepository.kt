@@ -1,8 +1,7 @@
 package com.example.phonetextfield.data.repository
 
 import android.util.Log
-import com.example.phonetextfield.data.models.ResponseState
-import com.example.phonetextfield.domain.models.Country
+import com.example.phonetextfield.data.models.Response
 import com.example.phonetextfield.domain.repository.CountryApi
 import javax.inject.Inject
 
@@ -13,26 +12,26 @@ class CountryRepository @Inject constructor(
         const val TAG = "CountryRepository"
     }
 
-    suspend fun getCountryList(limit: Int, offset: Int): ResponseState<List<Country>> {
+    suspend fun getCountryList(): Response {
         Log.d(TAG, "getCountryList")
 
         val response = try {
-            api.getCountryList(limit, offset)
+            api.getCountryList()
         } catch (exception: Exception) {
-            return ResponseState.Error(exception)
+            return Response.Error(exception)
         }
-        return ResponseState.Success(response)
+        return Response.SuccessAll(response)
     }
 
-    suspend fun getCountry(name: String): ResponseState<Country> {
+    suspend fun getCountry(code: String): Response {
         Log.d(TAG, "getCountry")
 
         val response = try {
-            api.getCountryInfo(name)
+            api.getCountry(code)
         } catch (exception: Exception) {
-            return ResponseState.Error(exception)
+            return Response.Error(exception)
         }
-        return ResponseState.Success(response)
+        return Response.Success(response)
     }
 
 }
