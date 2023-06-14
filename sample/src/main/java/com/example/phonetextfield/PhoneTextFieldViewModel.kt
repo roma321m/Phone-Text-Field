@@ -3,7 +3,6 @@ package com.example.phonetextfield
 import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -43,9 +42,7 @@ class PhoneTextFieldViewModel @Inject constructor(
         }
     }
 
-    private fun updateSelectedCountry(
-        country: Country
-    ){
+    private fun updateSelectedCountry(country: Country) {
         Log.d(TAG, "updateSelectedCountry")
         selectedCountry = country
     }
@@ -55,7 +52,10 @@ class PhoneTextFieldViewModel @Inject constructor(
         repository.getCountryList().also { response ->
             if (response is Response.SuccessAll) {
                 Log.d(TAG, "${response.data}")
-                countryList = response.data
+                countryList = response.data.sortedBy {
+                    it.dialCode
+                }
+                selectedCountry = countryList.first()
             } else if (response is Response.Error) {
                 response.apply {
                     Log.e(TAG, "${error.message}")

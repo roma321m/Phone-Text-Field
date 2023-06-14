@@ -3,6 +3,7 @@ package com.example.phonetextfield
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
@@ -23,7 +24,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.rememberAsyncImagePainter
@@ -42,9 +45,8 @@ fun PhoneTextFieldView(
     onValueChange: (String) -> Unit,
 ) {
     val viewModel: PhoneTextFieldViewModel = hiltViewModel()
-    var expanded by remember { mutableStateOf(false) }
 
-    LaunchedEffect(Unit) { //fixme
+    LaunchedEffect(Unit) {
         viewModel.handle(PhoneTextFieldEvent.GetCountryList)
     }
 
@@ -55,6 +57,7 @@ fun PhoneTextFieldView(
             .size(Size.ORIGINAL) // Set the target size to load the image at.
             .build()
     )
+
     Row(
         modifier = modifier
             .wrapContentSize()
@@ -62,23 +65,32 @@ fun PhoneTextFieldView(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
     ) {
+        var expanded by remember { mutableStateOf(false) }
+
         ExposedDropdownMenuBox(
             modifier = Modifier
                 .weight(0.4f),
             expanded = expanded,
             onExpandedChange = {
-                expanded = !expanded
+                expanded = it
             }
         ) {
             TextField(
-                modifier = Modifier,
-                value = "",
+                modifier = Modifier.menuAnchor(),
+                value = viewModel.selectedCountry.dialCode ?: "",
+                textStyle = TextStyle(textAlign = TextAlign.End),
                 onValueChange = {},
                 readOnly = true,
                 singleLine = true,
                 shape = StartTextShapes.small as RoundedCornerShape,
                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                leadingIcon = { Image(modifier = Modifier.size(35.dp), painter = painter, contentDescription = null) },
+                leadingIcon = {
+                    Image(
+                        modifier = Modifier.size(35.dp),
+                        painter = painter,
+                        contentDescription = null
+                    )
+                },
             )
 
             ExposedDropdownMenu(
@@ -87,10 +99,29 @@ fun PhoneTextFieldView(
             ) {
                 viewModel.countryList.forEach { item ->
                     DropdownMenuItem(
-                        text = { Text(text = item.dialCode ?: "") },
+                        text = {
+                            Text(
+                                modifier = Modifier.fillMaxWidth(),
+                                text = item.dialCode ?: "",
+                                textAlign = TextAlign.Center
+                            )
+                        },
+                        leadingIcon = {
+                            Image(
+                                modifier = Modifier.size(35.dp),
+                                painter = rememberAsyncImagePainter(
+                                    model = ImageRequest.Builder(LocalContext.current)
+                                        .decoderFactory(SvgDecoder.Factory())
+                                        .data(item.flagUrl)
+                                        .size(Size.ORIGINAL) // Set the target size to load the image at.
+                                        .build()),
+                                contentDescription = null
+                            )
+                        },
                         onClick = {
-                            expanded = false
                             viewModel.handle(PhoneTextFieldEvent.UpdateSelectedCountry(item))
+                            onValueChange("")
+                            expanded = false
                         }
                     )
                 }
@@ -101,8 +132,9 @@ fun PhoneTextFieldView(
             modifier = Modifier
                 .weight(0.5f),
             value = value,
-            onValueChange = { number ->
-                onValueChange(number)
+            onValueChange = onValueChange,
+            label = {
+                Text(text = viewModel.selectedCountry.hint ?: "")
             },
             singleLine = true,
             shape = EndTextShapes.small as RoundedCornerShape,
