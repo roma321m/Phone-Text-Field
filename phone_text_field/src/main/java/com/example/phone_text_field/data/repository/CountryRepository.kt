@@ -1,11 +1,10 @@
-package com.example.phonetextfield.data.repository
+package com.example.phone_text_field.data.repository
 
 import android.util.Log
-import com.example.phonetextfield.data.models.Response
-import com.example.phonetextfield.domain.repository.CountryApi
-import javax.inject.Inject
+import com.example.phone_text_field.data.models.Response
+import com.example.phone_text_field.domain.repository.CountryApi
 
-class CountryRepository @Inject constructor(
+class CountryRepository (
     private val api: CountryApi
 ) {
     companion object {

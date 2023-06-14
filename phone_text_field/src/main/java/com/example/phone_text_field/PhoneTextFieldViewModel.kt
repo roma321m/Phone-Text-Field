@@ -1,4 +1,4 @@
-package com.example.phonetextfield
+package com.example.phone_text_field
 
 import android.util.Log
 import androidx.compose.runtime.getValue
@@ -6,15 +6,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.phonetextfield.data.models.Response
-import com.example.phonetextfield.data.repository.CountryRepository
-import com.example.phonetextfield.domain.models.Country
-import dagger.hilt.android.lifecycle.HiltViewModel
+import com.example.phone_text_field.data.models.Response
+import com.example.phone_text_field.data.repository.CountryRepository
+import com.example.phone_text_field.domain.models.Country
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@HiltViewModel
-class PhoneTextFieldViewModel @Inject constructor(
+
+class PhoneTextFieldViewModel (
     private val repository: CountryRepository
 ) : ViewModel() {
 

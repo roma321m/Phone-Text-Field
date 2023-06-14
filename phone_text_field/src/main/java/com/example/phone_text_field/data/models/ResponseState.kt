@@ -1,6 +1,6 @@
-package com.example.phonetextfield.data.models
+package com.example.phone_text_field.data.models
 
-import com.example.phonetextfield.domain.models.Country
+import com.example.phone_text_field.domain.models.Country
 
 sealed class Response {
     data class Success(val data: Country) : Response()

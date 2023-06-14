@@ -1,4 +1,4 @@
-package com.example.phonetextfield.domain.models
+package com.example.phone_text_field.domain.models
 
 import com.google.gson.annotations.SerializedName
 

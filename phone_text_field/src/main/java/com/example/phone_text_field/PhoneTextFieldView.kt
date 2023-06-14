@@ -1,4 +1,4 @@
-package com.example.phonetextfield
+package com.example.phone_text_field
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -28,23 +28,35 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.rememberAsyncImagePainter
 import coil.decode.SvgDecoder
 import coil.request.ImageRequest
 import coil.size.Size
-import com.example.phonetextfield.ui.theme.EndTextShapes
-import com.example.phonetextfield.ui.theme.StartTextShapes
+import com.example.phone_text_field.theme.EndTextShapes
+import com.example.phone_text_field.theme.StartTextShapes
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PhoneTextFieldView(
     modifier: Modifier,
     value: String,
-    onValueChange: (String) -> Unit,
+    onValueChange: (String) -> Unit
 ) {
-    val viewModel: PhoneTextFieldViewModel = hiltViewModel()
+    val viewModel: PhoneTextFieldViewModel = PhoneTextFieldViewModelFactory.getInstance().phoneTextFieldViewModel
+
+    MyPhoneTextFieldView(
+        modifier, value, onValueChange, viewModel
+    )
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+internal fun MyPhoneTextFieldView(
+    modifier: Modifier,
+    value: String,
+    onValueChange: (String) -> Unit,
+    viewModel: PhoneTextFieldViewModel
+) {
 
     LaunchedEffect(Unit) {
         viewModel.handle(PhoneTextFieldEvent.GetCountryList)
@@ -114,7 +126,8 @@ fun PhoneTextFieldView(
                                         .decoderFactory(SvgDecoder.Factory())
                                         .data(item.flagUrl)
                                         .size(Size.ORIGINAL) // Set the target size to load the image at.
-                                        .build()),
+                                        .build()
+                                ),
                                 contentDescription = null
                             )
                         },
@@ -142,4 +155,5 @@ fun PhoneTextFieldView(
         )
     }
 }
+
 

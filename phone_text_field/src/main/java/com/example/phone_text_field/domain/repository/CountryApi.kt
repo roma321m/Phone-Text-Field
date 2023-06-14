@@ -1,6 +1,6 @@
-package com.example.phonetextfield.domain.repository
+package com.example.phone_text_field.domain.repository
 
-import com.example.phonetextfield.domain.models.Country
+import com.example.phone_text_field.domain.models.Country
 import retrofit2.http.GET
 import retrofit2.http.Query
 
